@@ -32,7 +32,11 @@ footer {
 
 main {
   display: flex;
-  flex-direction: column;
+}
+@media (max-width: 576px) {
+  main {
+    flex-direction: column;
+  }
 }
 main .img-panel {
   margin: 44px 20px;

@@ -1,6 +1,9 @@
 main {
   display: flex;
-  flex-direction: column;
+
+  @media (max-width: $breakpt) {
+    flex-direction: column;
+  }
 
   .img-panel {
     margin: 44px 20px;
