@@ -21,9 +21,9 @@ $gray-2: #4F4F4F;
   }
 }
 
-@mixin heading-text {
+@mixin common-text {
   font-family: $SpaceMono;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 1.47;
   letter-spacing: -0.035em;
   font-size: 18px;

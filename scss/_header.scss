@@ -1,4 +1,10 @@
 header {
+  margin: 20px 0;
+
+  @media (min-width: $breakpt) {
+    margin: 40px 0;
+  }
+
   .logo {
     @include heading-text;
     
