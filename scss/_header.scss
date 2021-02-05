@@ -6,11 +6,10 @@ header {
   }
 
   .logo {
-    @include heading-text;
-    
-    letter-spacing: -0.08em;
-    font-size: 24px;
+    color: $gray-1;
     font-family: $Inconsolata;
+    font-size: 24px;
+    letter-spacing: -0.08em;
     text-decoration: none;
   }
 }

@@ -14,40 +14,76 @@ header {
   }
 }
 header .logo {
-  font-family: "Space Mono", "serif";
-  font-weight: 700;
-  line-height: 1.47;
-  letter-spacing: -0.035em;
-  font-size: 48px;
   color: #333333;
-  letter-spacing: -0.08em;
-  font-size: 24px;
   font-family: "Inconsolata", "sans-serif";
+  font-size: 24px;
+  letter-spacing: -0.08em;
   text-decoration: none;
-}
-@media (min-width: 576px) {
-  header .logo {
-    font-size: 64px;
-  }
 }
 
 footer {
+  color: #333333;
+  font-family: "Space Mono", "serif";
+  font-size: 14px;
+  font-weight: 700;
+  margin: 40px 0;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+main .img-panel {
+  margin: 44px 20px;
+}
+main .img-panel img {
+  width: 100%;
+  height: 100%;
+}
+main .text-panel {
+  margin: 0 0 56px;
+}
+main .text-panel h1 {
+  font-family: "Space Mono", "serif";
+  font-weight: 700;
+  line-height: 1.47;
+  letter-spacing: -0.05em;
+  font-size: 48px;
+  color: #333333;
+  margin: 0 0 30px;
+}
+@media (min-width: 576px) {
+  main .text-panel h1 {
+    font-size: 64px;
+  }
+}
+main .text-panel p {
   font-family: "Space Mono", "serif";
   font-weight: 400;
   line-height: 1.47;
   letter-spacing: -0.035em;
   font-size: 18px;
   color: #4F4F4F;
-  color: #333333;
-  text-align: center;
-  font-size: 14px;
-  font-weight: 700;
-  margin: 40px 0;
+  margin: 0 0 66px;
 }
 @media (min-width: 576px) {
-  footer {
+  main .text-panel p {
     font-size: 24px;
   }
+}
+main .text-panel .button {
+  background-color: #333333;
+  color: white;
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  height: 68px;
+  line-height: 68px;
+  max-width: 216px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Space Mono", "serif";
 }
 
 /*# sourceMappingURL=main.css.map */
