@@ -1,0 +1,10 @@
+header {
+  .logo {
+    @include heading-text;
+    
+    letter-spacing: -0.08em;
+    font-size: 24px;
+    font-family: $Inconsolata;
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono:wght@400;700&display=swap');
+
+$Inconsolata: 'Inconsolata', 'sans-serif';
+$SpaceMono: 'Space Mono', 'serif';
+
+$breakpt: 576px;
+
+$gray-1: #333333;
+$gray-2: #4F4F4F;
+
+@mixin heading-text {
+  font-family: $SpaceMono;
+  font-weight: 700;
+  line-height: 1.47;
+  letter-spacing: -0.035em;
+  font-size: 48px;
+  color: $gray-1;
+  
+  @media (min-width: $breakpt) {
+    font-size: 64px;
+  }
+}
+
+@mixin heading-text {
+  font-family: $SpaceMono;
+  font-weight: 700;
+  line-height: 1.47;
+  letter-spacing: -0.035em;
+  font-size: 18px;
+  color: $gray-2;
+  
+  @media (min-width: $breakpt) {
+    font-size: 24px;
+  }
+}

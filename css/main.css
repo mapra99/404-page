@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono:wght@400;700&display=swap");
+body {
+  margin: auto;
+  padding: 0 24px;
+  max-width: 1244px;
+}
+
+header .logo {
+  font-family: "Space Mono", "serif";
+  font-weight: 700;
+  line-height: 1.47;
+  letter-spacing: -0.035em;
+  font-size: 18px;
+  color: #4F4F4F;
+  letter-spacing: -0.08em;
+  font-size: 24px;
+  font-family: "Inconsolata", "sans-serif";
+  text-decoration: none;
+}
+@media (min-width: 576px) {
+  header .logo {
+    font-size: 24px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
