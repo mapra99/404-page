@@ -8,23 +8,41 @@ main {
   .img-panel {
     margin: 44px 20px;
 
+    @media (min-width: $breakpt) {
+      box-sizing: border-box;
+      padding-right: 120px;
+      width: 50%;
+      margin: 0;
+    }
+
     img {
       width: 100%;
-      height: 100%;
     }
   }
 
   .text-panel {
     margin: 0 0 56px;
 
+    @media (min-width: $breakpt) {
+      width: 50%;
+    }
+
     h1 {
       @include heading-text;
       margin: 0 0 30px;
+
+      @media (min-width: $breakpt) {
+        margin: 0 0 36px;
+      }
     }
 
     p {
       @include common-text;
       margin: 0 0 66px;
+
+      @media (min-width: $breakpt) {
+        max-width: 380px;
+      }
     }
 
     .button {

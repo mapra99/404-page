@@ -3,6 +3,10 @@ body {
   margin: auto;
   padding: 0 24px;
   max-width: 1244px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
 }
 
 header {
@@ -41,12 +45,24 @@ main {
 main .img-panel {
   margin: 44px 20px;
 }
+@media (min-width: 576px) {
+  main .img-panel {
+    box-sizing: border-box;
+    padding-right: 120px;
+    width: 50%;
+    margin: 0;
+  }
+}
 main .img-panel img {
   width: 100%;
-  height: 100%;
 }
 main .text-panel {
   margin: 0 0 56px;
+}
+@media (min-width: 576px) {
+  main .text-panel {
+    width: 50%;
+  }
 }
 main .text-panel h1 {
   font-family: "Space Mono", "serif";
@@ -62,6 +78,11 @@ main .text-panel h1 {
     font-size: 64px;
   }
 }
+@media (min-width: 576px) {
+  main .text-panel h1 {
+    margin: 0 0 36px;
+  }
+}
 main .text-panel p {
   font-family: "Space Mono", "serif";
   font-weight: 400;
@@ -74,6 +95,11 @@ main .text-panel p {
 @media (min-width: 576px) {
   main .text-panel p {
     font-size: 24px;
+  }
+}
+@media (min-width: 576px) {
+  main .text-panel p {
+    max-width: 380px;
   }
 }
 main .text-panel .button {

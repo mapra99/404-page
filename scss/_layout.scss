@@ -2,4 +2,8 @@ body {
   margin: auto;
   padding: 0 24px;
   max-width: 1244px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
 }
