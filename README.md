@@ -1,43 +1,39 @@
-# Project Name
+# 404 Page
 
-> One paragraph statement about the project.
+> A cute page informing a 404 error
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
-
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Sass
+- Flexbox
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://mapra99.github.io/404-page/)
 
 
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
+## Setup & Usage
 
 To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+1. Clone this repository and cd to its folder
+```
+git clone git@github.com:mapra99/404-page.git
+cd 404-page
+```
+1. Install dev dependencies
+```
+npm install --save-dev
+```
+3. Run a live server and go to http://localhost:8080
+```
+npm start
+```
+4. Watch sass for changes
+```
+npm run sass:watch
+```
 
 ## Author
 
